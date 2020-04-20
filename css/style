@@ -1,0 +1,1301 @@
+html * {max-height:1000000px;}
+
+body {
+    background: #fff;
+    padding: 0 !important;
+    margin: 0;
+    font-family: Neuton, Times
+}
+
+body .tebexLogin {
+    position: relative;
+}
+
+.container {
+    background: transparent;
+    border: none;
+    width: 1150px;
+    padding-bottom: 0
+}
+
+.text-center {
+  text-align: center;
+}
+
+.notice {
+  width: 600px;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: #fcf8e3;
+  color: #8a6d3b;
+}
+
+#header {
+    height: 140px;
+    padding-bottom: 0;
+    background: transparent url(https://storeassets.hypixel.net/store-header-border.png) repeat-x bottom center;
+}
+
+#main-container {
+    background: transparent url(https://storeassets.hypixel.net/store-header-border.png) repeat-x top center
+}
+
+#header > .container {
+    padding-top: 0
+}
+
+#header .navbar {
+    float: right;
+    padding-top: 110px;
+    padding-top: 53px
+}
+
+#header .navbar .cart > a,
+#header .navbar .cart > span.text-only {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #474646;
+    padding: 8px 13px 6px;
+    margin-left: 11px;
+    margin-left: 0;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    padding-bottom: 10px !important
+}
+
+#header .navbar-inner {
+    background: transparent;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 0;
+    margin-right: 0
+}
+
+#header .navbar .nav > li > a,
+#header .navbar .nav > li > span.text-only {
+    display: block;
+    text-shadow: none;
+    color: #fff;
+    font-family: Neuton, Times;
+    font-size: 18px;
+    font-weight: normal;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border: 1px solid #474646;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-color: #1F1C35;
+    xborder-radius: 4px;
+    padding: 7px 17px 12px;
+    xmargin-left: 7px;
+    border-right: none;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+#header .navbar .nav > li.ign img {
+    width: 16px;
+    height: 16px;
+    margin: -1px 0 -1px 5px;
+    vertical-align: middle;
+}
+
+#header .navbar .nav > li:first-child > a,
+#header .navbar .nav > li:first-child > span.text-only {
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px
+}
+
+#header .navbar .nav > li:first-child > a {
+    background: #ffd54e;
+    color: #000;
+    border-color: #a07a00;
+}
+
+#header .navbar .nav > li:last-child > a,
+#header .navbar .nav > li:last-child > span.text-only {
+    border-right: 1px solid #474646;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-right-color: #1F1C35;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px
+}
+
+#header .navbar .nav > .cart > a,
+#header .navbar .nav > .cart > span.text-only {
+    border-right: 1px solid #474646;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    border-right-color: #cfcfcf;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px
+}
+
+#header .navbar .nav > .cart i {
+    margin-top: 4px;
+    color: #222
+}
+
+#header .navbar .nav li > a:hover {
+    border-color: #86847b;
+    border-color: rgba(255, 255, 255, 0.45);
+    border-color: #1F1C35;
+}
+
+#header .navbar .nav > li > a:hover {
+    color: #aaa;
+}
+
+
+
+#header .navbar .nav > li:hover li a, #header .navbar .nav > li.active li a {
+    border-left-color: #86847b;
+    border-left-color: rgba(255, 255, 255, 0.45);
+    border-left-color: #b3b3b3
+}
+
+#header .navbar .nav > li.active > a {
+    color: #0E7DCB;
+    background: transparent
+}
+
+.content {
+    font-weight: normal;
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+.header .logo {
+    width: 212px;
+    height: 140px;
+    background: transparent url(https://storeassets.hypixel.net/store-logo.png) 0 12px no-repeat
+}
+
+.box-container .header, .box-container .content {
+    background: transparent;
+    border: none;
+    text-shadow: none
+}
+
+.box-container .header {
+    color: #202020;
+    font-weight: normal;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 12px
+}
+
+.category-package {
+    margin: 15px 15px 40px 15px;
+    margin: 0;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.category-package .info {
+    height: auto;
+}
+
+.category-package.best-value {
+  position: relative;
+  background: #10436e;
+}
+
+.category-package.best-value .most-value {
+  margin: auto;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.category-package.best-value .name {
+  color: #fff;
+}
+
+.category-package.best-value .price {
+  color: #ABD781;
+}
+
+.category-package.best-value .user-requires-mvpplus {
+  color: #fff;
+  opacity: .75;
+}
+
+.category-package .info .name {
+  font-size: 16px;
+}
+
+.category-package .loading {
+  padding: 3px 0;
+  text-align: center;
+}
+
+.category-package .image .loading {
+  padding: 53px 0;
+}
+
+.category-package .image .user-requires-mvpplus img {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.category-package .buttons .user-requires-mvpplus {
+  font-size: 18px;
+  padding: 7px 0;
+  margin-top: 9px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#cat-531189 .category-package .info,
+#cat-531227 .category-package .info,
+#cat-307502 .category-package .info {
+    height: 55px;
+}
+
+.category-package .info .name {
+    color: #111;
+    font-size: 19px;
+    font-weight: normal;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+}
+
+.category-package .info .price {
+    color: #407112;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 4px
+}
+
+.category-package .image {
+    margin-bottom: 12px
+}
+
+.packages.content {
+    text-align: center
+}
+
+#cat-37606 .content {
+    text-align: right;
+    padding-top: 0;
+}
+
+#cat-37606 .category-package {
+    _padding: 15px 7px 40px 7px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    width: 193px;
+}
+
+#cat-37606 .category-package .image {
+    margin-bottom: 0;
+}
+
+#cat-37606 .category-package .most-value {
+    margin-left: 89px;
+}
+
+#cat-37606 .category-package .image,
+#cat-37606 .category-package .image img.rank {
+    width: 100%;
+    height: auto;
+}
+
+#cat-37606 img {
+   /* width: 174px !important;*/
+    /*height: 151px !important;*/
+}
+
+#cat-531189 .category-package,
+#cat-964206 .category-package,
+#cat-652264 .category-package {
+    width: 260px;
+}
+
+#package-540085 {
+    background: #10436e
+}
+
+.category-package {
+    width: 190px;
+    height: auto;
+    float: none;
+    display: inline-block;
+    text-align: left
+}
+
+.category-package.best-value .name {
+    color: #fff;
+}
+
+.category-package.best-value .price {
+    color: #ABD781;
+}
+
+.category-package .info {
+    width: auto;
+    float: none
+}
+
+.category-package .buttons {
+    width: auto;
+    float: none
+}
+
+.category-package .buttons .btn {
+    display: block;
+    background: #e7ae3e;
+    background: #799430;
+    background: #8CA842;
+    background: #BE3E27;
+    color: #0f0c04;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px 0;
+    margin-top: 9px;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    background-image: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-transition: -moz-background 0.2s;
+    -o-transition: -o-background 0.2s;
+    -webkit-transition: -webkit-background 0.2s;
+    transition: background 0.2s
+}
+
+.category-package .buttons .btn:hover {
+    background: #8CA842;
+    background: #799430;
+    background: #A93722;
+}
+
+#cat-436406 .category-package .buttons .btn {
+    margin-top: 15px
+}
+
+.category-package .buttons .btn-danger, .category-package .buttons .btn-danger:hover {
+    background: #af4831;
+    color: #fff
+}
+
+#feature-list {
+  margin: 10px 0;
+}
+
+#feature-list .accordion-group {
+  display: inline-block;
+  width: 40%;
+  margin: 7px 5px;
+  font-size: 17px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#feature-list .accordion-group .accordion-body {
+  text-align: left;
+}
+
+.product-table {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    color: #222;
+    font-weight: normal;
+    font-size: 17px;
+    _width: 990px;
+    float: right;
+}
+
+.product-table td {
+    padding: 10px 15px
+}
+
+.product-table td > .tooltip-help {
+    padding-right: 20px;
+}
+
+.product-table td.feature {
+    width: 130px;
+    border-right: 1px solid #C5D7E4;
+    color: #777
+}
+
+.product-table td.feature.bold {
+    font-weight: bold;
+}
+
+.product-table td.value {
+    width: 190px;
+    width: 174px;
+    text-align: center;
+}
+
+.product-table tr.row1 .value {
+    background: #E9EEF0
+}
+
+.product-table tr.row1 .value:nth-child(5) {
+    background: #D1DADD
+}
+
+.product-table tr.row1 .feature {
+    background: #F5F6F7
+}
+
+.product-table tr.row2 .value:nth-child(5) {
+    background: #E9EEF0
+}
+
+.product-table .thead td {
+    background: #10436E;
+    border-bottom: 1px solid #060604;
+    _text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1a1917;
+    color: #fff
+}
+
+.product-table td > .tooltip-help {
+    cursor: help;
+    background: url(https://storeassets.hypixel.net/store-info.png) no-repeat right center;
+}
+
+.tooltip {
+    font-size: 15px;
+    font-weight: 100
+}
+
+.product-table .tick {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: transparent url(https://storeassets.hypixel.net/store-tick1.png) no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+    margin: auto;
+}
+
+.product-table .row2 .tick {
+    background: transparent url(https://storeassets.hypixel.net/store-tick2.png) no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+    opacity: 0.2
+}
+
+.product-table .tick.has {
+    background: transparent url(https://storeassets.hypixel.net/store-tick-has.png) no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.basket-dropdown {
+    left: auto;
+    margin-left: -280px
+}
+
+.basket-dropdown:before, .basket-dropdown:after {
+    left: 304px !important
+}
+
+.footer {
+    width: 1000px;
+    background: #10436E url(https://storeassets.hypixel.net/store-header-border.png) repeat-x top center;
+    margin-bottom: 70px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #10436E;
+    background: #061928
+}
+
+.footer .page-width {
+    padding: 17px 0;
+    padding-bottom: 38px;
+    border-top: 1px solid #092E4F
+}
+
+.footer a {
+    color: #fff;
+    font-weight: 100
+}
+
+.box-container {
+    margin-bottom: 0
+}
+
+.box-container .content {
+    padding-bottom: 0
+}
+
+#currency-wrapper {
+    position: absolute;
+    xmargin-left: 971px;
+    xmargin-left: 966px;
+    width: 1040px
+}
+
+#currency-wrapper .btn-group {
+    float: right
+}
+
+#currency-wrapper .btn {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #cdcdcd;
+    border-top: none;
+    background: #F4F4F4;
+    color: #5E5E5E;
+    -moz-transition: border 0.2s;
+    -o-transition: border 0.2s;
+    -webkit-transition: border 0.2s;
+    transition: border 0.2s
+}
+
+#currency-wrapper .btn:hover {
+    border-color: #86847b;
+}
+
+.category-description {
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    color: #5e5e5e
+}
+
+.category-description a:link {
+    color: #0088cc;
+}
+
+.new-feature {
+    color: #F15E44;
+    font-size: 11px;
+    vertical-align: top;
+}
+
+.checkout h4 {
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c1c1c1;
+    color: #111
+}
+
+.checkout .recipient-details {
+    text-align: center;
+}
+
+.checkout .recipient-details img {
+    margin-bottom: 20px;
+}
+
+.checkout .recipient-details .username {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.basket.gateways > .gateway,
+.basket.gateways > .gateway input[type=submit],
+.braintree-details input[type=submit],
+.basket.gateways > .gateway input[type=button] {
+    width: 210px;
+    height: 90px;
+}
+
+.table {
+    color: #111;
+    font-size: 15px;
+    font-weight: normal
+}
+
+.table th {
+    background: #27241c;
+    background: #337BB8;
+    border-bottom: 1px solid #1e1d1a;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 12px
+}
+
+.table td {
+    border: none;
+    background: transparent !important;
+    padding: 8px 12px
+}
+
+.table td:hover {
+    background: transparent !important
+}
+
+.table input[type=text] {
+    margin-bottom: 0
+}
+
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #EAEEF2 !important
+}
+
+label {
+    color: #454545;
+    font-weight: normal;
+    text-transform: uppercase
+}
+
+.store-description {
+    font-size: 16px;
+    font-weight: normal;
+    color: #5e5e5e
+}
+
+#featured {
+    margin-bottom: 15px;
+    display: block;
+    height: 315px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #262624;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    background: transparent url(https://staticassets.hypixel.net/store/featured-banner/cyber-monday-2016.png) no-repeat
+}
+
+.page-width {
+    width: 1050px;
+    margin: auto;
+}
+
+.eula-note {
+    background: #0c0904;
+    padding: 10px 30px;
+    padding-bottom: 22px;
+    font-size: 14px;
+    color: #285276;
+    background: #10436E;
+    background: #061928
+}
+
+.eula-note h1 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 5px;
+    padding-top: 0;
+    margin-bottom: 4px
+}
+
+.eula-note p {
+    margin: 0 0 -2px
+}
+
+.hypixel-copyright {
+    float: right;
+    color: #30628C;
+    font-weight: normal
+}
+
+.sub-header {
+    background: #0c0904;
+    height: 316px;
+    height: 363px;
+    height: 427px;
+    background: #0c0904 url(https://storeassets.hypixel.net/store-sub-header.png) no-repeat top center;
+    background: rgba(121, 108, 70, 0.08);
+    background: rgba(0, 0, 0, 0.64) url(https://storeassets.hypixel.net/store-sub-header-gradient.png) no-repeat center 52px;
+    background: #337bb8 url(https://storeassets.hypixel.net/store-art-bg.png) no-repeat center 52px;
+    background: #210a19;
+    border-top: 6px solid #1e2122
+}
+
+.sub-header-title {
+    background-position: center 17px;
+}
+
+.sub-header-blackfriday {
+    /*background: #0b0f19 url(https://storeassets.hypixel.net/featured-smash.png?v4) no-repeat center 52px;*/
+    height: auto !important;
+}
+
+.featured-item {
+    height: 306px;
+    height: 348px;
+    height: 400px;
+    height: 390px;
+    display: block;
+    width: 1050px;
+    margin: auto;
+    background: transparent url(https://staticassets.hypixel.net/store/featured-banner/cyber-monday-2016.png) no-repeat top center;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s
+}
+
+/*.sub-header .featured-item:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    opacity: 0.6
+}*/
+
+.support-box {
+    padding: 15px 20px;
+    padding-bottom: 23px;
+    width: auto;
+    background: #10436e;
+    margin-bottom: 15px
+}
+
+.support-box .header {
+    border-bottom-color: #22557f;
+    color: #fff
+}
+
+.support-button {
+    background: #266499;
+    color: #1a232b;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center
+}
+
+.support-button:hover {
+    text-decoration: none;
+    color: #0b2c48;
+    background: #2c73af
+}
+
+.support-box .content {
+    color: #cadae8;
+    font-size: 15px
+}
+
+.span9 {
+    margin-right: 10px
+}
+
+.most-value {
+    position: absolute;
+    background: #ecc836;
+    padding: 0 0;
+    color: #1e1904;
+    text-transform: uppercase;
+    margin-left: 100px;
+    width: 96px;
+    text-align: center;
+    z-index: 10;
+    height: 28px;
+    line-height: 28px;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+.most-value:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background: red;
+    margin-left: 89px;
+    background: transparent url(https://storeassets.hypixel.net/store-most-value.png) no-repeat
+}
+
+.buy-arrow {
+    display: inline-block;
+    width: 9px;
+    height: 14px;
+    background: transparent url(https://storeassets.hypixel.net/store-buy-arrow.png) no-repeat;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    vertical-align: middle
+}
+
+.icon-globe {
+    margin-right: 8px
+}
+
+.extra-footer {
+    background: #327bb8;
+    height: 180px;
+    margin-top: 15px
+}
+
+.extra-footer h1 {
+    border-bottom: 1px solid #5795ca;
+    color: #061D2F;
+    text-transform: uppercase;
+    padding: 8px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    font-size: 17px;
+    font-weight: normal
+}
+
+.extra-footer .payments-col {
+    width: 405px;
+    float: left
+}
+
+.extra-footer .support-col {
+    width: 590px;
+    float: right
+}
+
+.extra-footer .support-col .col-content {
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    color: #c7e2f8
+}
+
+.extra-footer .support-col .email-support {
+    width: 220px;
+    height: 50px;
+    background: #256ca7;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    float: right;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.extra-footer .support-col .email-support:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #1e6198
+}
+
+.package-header {
+    height: 120px;
+    background: #F2F2F2;
+    padding: 8px
+}
+
+.package-header img {
+    float: left;
+    height: 120px
+}
+
+.package-header .package-info {
+    margin-left: 180px
+}
+
+.package-header .price {
+    font-size: 21px;
+    padding-top: 20px;
+    padding-bottom: 14px
+}
+
+.modal-body .description {
+    padding-top: 10px
+}
+
+.btn-support {
+    -webkit-border-bottom-right-radius: 0 !important;
+    -moz-border-radius-bottomright: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: none !important
+}
+
+.btn-basket {
+    -webkit-border-bottom-left-radius: 0 !important;
+    -moz-border-radius-bottomleft: 0 !important;
+    border-bottom-left-radius: 0 !important
+}
+
+.real-worth {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 14px;
+    color: #666;
+}
+
+.sub-header-title {
+    height: 186px;
+    height: 160px;
+    height: 57px;
+}
+
+.sub-header-title h1 {
+    color: #fff;
+    display: none;
+    width: 1050px;
+    margin: auto;
+    padding: 42px 0px;
+    padding: 32px 0px;
+    font-weight: 100;
+    font-size: 27px;
+      font-family: Open Sans;
+}
+
+.new-nav {
+    background: #10436e;
+    height: 57px;
+    -moz-transition: border 0.2s;
+    -o-transition: border 0.2s;
+    -webkit-transition: border 0.2s;
+    transition: border 0.2s;
+}
+
+.new-nav.sticky {
+    border-bottom: 3px solid #1e2122;
+}
+
+.new-nav-placeholder {
+    background: #10436e;
+    height: 57px;
+    display: none;
+}
+
+.new-nav > ul {
+    list-style: none;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    white-space: nowrap;
+    height: inherit;
+    border-right: 1px solid #246398;
+    border-left: 1px solid #246398;
+}
+
+.new-nav > ul > li {
+    display: block;
+    flex: 1;
+    height: inherit;
+}
+
+.new-nav > ul > li {
+    position: relative;
+}
+
+.new-nav > ul > li.cid-613757:after,
+.new-nav > ul > li.cid-806301:after,
+.new-nav > ul > li.cid-832795:after{
+    width: 36px;
+    width: 85px;
+    height: 20px;
+    background: url('https://storeassets.hypixel.net/limited-time.png') no-repeat;
+    right: -5px;
+    top: -11px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+}
+
+.new-nav > ul > li.xcid-37606:after,
+.new-nav > ul > li.xcid-436406:after {
+    width: 46px;
+    width: 43px;
+    height: 20px;
+    background: url('https://storeassets.hypixel.net/store-60.png') no-repeat;
+    right: -5px;
+    top: -11px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+}
+
+.new-nav > ul > li.xcid-37606:after,
+.new-nav > ul > li.xcid-964206:after,
+.new-nav > ul > li.xcid-588562:after,
+.new-nav > ul > li.xcid-652264:after,
+.new-nav > ul > li.xcid-531189:after {
+    width: 46px;
+    width: 43px;
+    height: 20px;
+    background: url('https://storeassets.hypixel.net/store-new.png') no-repeat;
+    right: -12px;
+    top: -11px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+}
+
+.new-nav.sticky > ul > li:after {
+    display: none;
+}
+
+.new-nav > ul > li > a {
+    display: block;
+    height: inherit;
+    line-height: 54px;
+    _line-height: 67px;
+    padding: 0 13px;
+    border-right: 1px solid #246398;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    transition: background 0.2s;
+    font-family: Open Sans;
+    font-size: 13px;
+}
+
+.new-nav > ul > li:last-child > a {
+    border-right: none;
+}
+
+.new-nav .nav-checkout {
+    float: right;
+}
+
+.new-nav .nav-checkout  a {
+    border-right: none;
+    border-left: 1px solid #246398;
+}
+
+.new-nav .icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: red;
+    margin-right: 6px;
+    vertical-align: middle;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+    margin-top: -5px;
+    transition: opacity 0.2s;
+}
+
+.new-nav a:hover {
+    text-decoration: none;
+    background: #0C3A61;
+}
+
+.new-nav a:hover .icon {
+       opacity: 0.75;
+}
+
+.new-nav > ul > li.active > a {
+    background: #1E2122;
+}
+
+.new-nav > ul > li.active > a .icon {
+    opacity: 0.8;
+}
+
+.new-nav .cid-37606 .icon,
+.new-nav .cid-436406 .icon,
+.new-nav .cid-1334385 .icon {
+    background-image: url(https://storeassets.hypixel.net/store-icon-ranks.png);
+}
+
+.new-nav .cid-307502 .icon,
+.new-nav .cid-436409 .icon{
+    background-image: url(https://storeassets.hypixel.net/store-icon-boosters.png);
+}
+
+.new-nav .cid-288373 .icon,
+.new-nav .cid-1260340 .icon,
+.new-nav .cid-436408 .icon{
+    background-image: url(https://storeassets.hypixel.net/store-icon-credits.png);
+}
+
+.new-nav .cid-433517 .icon,
+.new-nav .cid-436410 .icon{
+    background-image: url(https://storeassets.hypixel.net/store-icon-faq.png);
+}
+
+.new-nav .cid-588601 .icon,
+.new-nav .cid-588562 .icon {
+    background-image: url(https://storeassets.hypixel.net/store-icon-companions.png);
+}
+
+.new-nav .cid-964206 .icon,
+.new-nav .cid-531227 .icon,
+.new-nav .cid-555208 .icon,
+.new-nav .cid-555201 .icon {
+    background-image: url(https://storeassets.hypixel.net/store-icon-mystery.png);
+}
+
+.new-nav .cid-574570 .icon,
+.new-nav .cid-574288 .icon,
+.new-nav .cid-579134 .icon,
+.new-nav .cid-588609 .icon,
+.new-nav .cid-652264 .icon,
+.new-nav .xcid-806301 .icon{
+    background-image: url(https://storeassets.hypixel.net/store-icon-blackfriday.png);
+}
+
+.new-nav .cid-531189 .icon,
+.new-nav .cid-832795 .icon,
+.new-nav .cid-613757 .icon,
+.new-nav .cid-806301 .icon,
+.new-nav .cid-748883 .icon {
+    background-image: url(https://storeassets.hypixel.net/store-icon-bundles2.png);
+}
+
+.new-nav .cid-1260340 .icon {
+    background-image: url(https://storeassets.hypixel.net/gold-wallet.png);
+}
+
+.new-nav .nav-checkout .icon{
+    background-image: url(https://storeassets.hypixel.net/store-icon-cart.png);
+}
+
+#currency-wrapper {
+    display: none;
+}
+
+#header .navbar {
+    padding-top: 47px;
+}
+
+.basket-dropdown {
+    top: auto;
+    margin-left: -122px;
+}
+
+.currency-dropdown {
+    margin-left: 158px;
+}
+
+.dropdown-menu .active>a, .dropdown-menu .active>a:hover {
+    background: #337BB8;
+}
+
+.dropdown-menu li>a:hover {
+    background: #5A9FDA;
+}
+
+h2 {
+    font-size: 20.5px;
+}
+
+.main-ip {
+  background: #327ab7;
+  padding: 15px;
+  height: 58px;
+  border-bottom: 4px solid #0f436e;
+}
+
+.main-ip .explain {
+  float: left;
+  height: 58px;
+  width: 175px;
+  margin-right: 20px;
+  line-height: 58px;
+  text-align: right;
+  font-size: 16px;
+  color: #11283b;
+}
+
+.main-ip .the-ip {
+  float: left;
+  height: 58px;
+  width: 250px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 58px;
+  background: #0f436e;
+  text-transform: uppercase;
+}
+
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+/**
+ *	This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+/**
+ *	Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Century Gothic', Arial;
+}
+
+/**
+ *	Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Century Gothic', Arial;
+    font-size: 300%;
+    margin-top: 0.4em;
+    font-weight: bold;
+}
